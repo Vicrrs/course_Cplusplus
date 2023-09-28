@@ -7,5 +7,8 @@ int main (){
 	cout <<"**********************************"<< endl;
 
 	int numero_secreto = 42;
+	// Operador de insercao
 	cout << "O número secreto é " <<numero_secreto<<", nao conte para ninguém!" << endl;
+
+	cin >> 
 }
