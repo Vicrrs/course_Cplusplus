@@ -1,4 +1,6 @@
 #include<iostream>
+#include<ctime>
+#include<cstdlib>
 using namespace std;
 
 int main (){
@@ -25,8 +27,9 @@ int main (){
 		numero_de_tentativas = 5;
 	}
 
+	srand(time(NULL)); //seed
 	// constantes em caps lock
-	const int NUMERO_SECRETO = 42;
+	const int NUMERO_SECRETO = rand() % 100;
 	// Operador de insercao
 	// cout << "O número secreto é " <<numero_secreto<<", nao conte para ninguém!" << endl;
 
