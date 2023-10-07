@@ -47,5 +47,7 @@ int main (){
 	}
 	cout << "Fim de jogo!" << endl;
 	cout << "Você acertou o número secreto em " << tentativas << " tentativa(s)!" << endl;
+	cout.precision(2);
+	cout << fixed; // setar o numeri de casas decimais com precision e fixed para nao sair em notacao cientifica
 	cout << "Sua pontuação foi de " << pontos << " pontos." << endl;
 }
