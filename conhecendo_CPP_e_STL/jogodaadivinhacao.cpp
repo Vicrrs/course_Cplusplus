@@ -39,4 +39,5 @@ int main (){
 		};
 	}
 	cout << "Fim de jogo!" << endl;
+	cout << "Você acertou o número secreto em " << tentativas << " tentativa(s)!" << endl;
 }
