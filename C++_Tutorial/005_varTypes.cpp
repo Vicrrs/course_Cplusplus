@@ -6,4 +6,8 @@ string - armazena teste, "Hello c++".
 bool - armazena valores com dois estados: true or false.
 
 -> Para criar uma variavel, especifique o tipo e atribua um valor a ela:
- */
+*/
+
+int MyNum = 15;
+MyNum = 10;
+count << MyNum;
